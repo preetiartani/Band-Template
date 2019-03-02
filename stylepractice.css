@@ -1,0 +1,268 @@
+/*stylepractice.css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* margin: 10px 10px; */
+    background: #fff;
+}
+.main-header{
+    width: 100%;
+    position: fixed;
+    height: 45px;
+    background: #000;
+    z-index: 9999;
+}
+.clear-fix:after{
+    content:"";
+    clear: both;
+    display:block;
+}
+.navigation{
+    color: #fff;
+}
+li{
+    display:inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+a{
+     text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    background: #aaa;
+    color: #333;
+}
+a:active{
+    color: #333;
+    background: #aaa;
+}
+
+.background-image{
+    height: 650px;
+/*    margin-top: 45px;*/
+    position: relative;
+    top:45px;
+    background: url('CSS%20IMAGES/chicago.jpg') no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+
+.band{
+    text-decoration: none;
+    margin: 90px auto 0;
+    width: 700px;
+    line-height: 1.5;
+}
+.para{
+    text-align: justify;
+    margin-bottom: 75px;
+}
+
+.font-2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: monoco, monospace;
+    font-weight: normal;
+}
+
+.font-3{
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    font-family: monoco,monospace;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.i-1, .i-2{
+    text-align: center;
+/*    margin-right: 83px;*/
+    width: 33.33%;
+}
+.pull-left{
+    float:left;
+}
+.i-3{
+    text-align: center;
+    width: 33.33%;
+}
+p{
+    margin-bottom: 20px;
+}
+
+.tour{
+    height: 850px;
+    background: #000;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.tour h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 90px;
+    margin-bottom: 35px;
+}
+
+.month{
+    font-size: 18px;
+    color: #aaa;
+    border: solid 1px #888;
+    background: white;
+    width: 750px;
+    padding: 8px;
+    margin: auto;
+}
+.month span{
+    padding-left: 10px;
+}
+.box{
+    background: red;
+    border: solid 1px red;
+    color: white;
+    padding: 5px;
+    margin-left: 12px;
+}
+.container{
+    margin-bottom: 30px;
+}
+.place{
+    margin: 0 auto;
+    width: 770px;
+}
+.newyork{
+    margin-right: 10px;
+    height: 380px;
+    background: white;
+}
+.paris{
+     margin-right: 10px;
+    height: 380px;
+    background: white;
+}
+.sanfran{
+    height: 380px;
+    background: white;
+}
+h3{
+    color: #121212;
+    padding: 10px;
+    font-size: 18px;
+}
+.datetime{
+    color: #aaa;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.place-info{
+    color: #121212;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 45px;
+    width: 230px;
+}
+.button{
+    background: #000;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    border: solid 1px #000;
+}
+
+span.button:hover{
+    background: #aaa;
+    color: #111;
+    border: solid 1px #aaa;
+    cursor: pointer;
+}
+
+.contact-container{
+    height: 375px;
+}
+.big-container{
+    width: 800px;
+    margin: 0 auto;
+}
+.location-info{
+     width: 50%;   
+}
+
+.form{
+    width: 50%;
+}
+
+.block{
+    margin-bottom: 15px;
+    margin-right: 8px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    border: solid 1px #000;
+    background: #000;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 320px;
+}
+input[type="submit"]:hover{
+    background: #aaa;
+    color: #000;
+    border: none;
+}
+
+.more{
+    background: url(CSS%20IMAGES/Capture-4.PNG) no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 70px;
+}
+
+.social{
+    margin: auto;
+    width: 150px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.social p{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social a{
+    color: #333;
+    text-decoration: underline;
+}
+
+.social a:hover{
+    color: #333;
+    background: none;
+}
